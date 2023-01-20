@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+    body{
+        margin: 0;
+        padding: 0;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: rgb(29, 26, 26);
+    }
+
+    .card-mid
+    {
+        margin-top: 50px;
+        width: 600px;
+        height: 600px;
+        background-color: rgb(51, 51, 57);
+        border-radius: 7px;
+        box-shadow: 0px 0px 20px black ;
+        margin-top: 100px;
+        margin-left: 30%;
+        
+    }
+    .sum
+    {
+        display: inline-table;
+        height: 250px;
+        width: 100%;
+        
+    }
+    .first
+    {
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-bottom: 80px;
+        margin-bottom: 30%;
+        height: 50px;
+        width: 50px;
+        border: 10px;
+        border-radius: 100px;
+        cursor: pointer;
+        background-color: rgb(67, 64, 64);
+        line-height: 40px;
+        
+    }
+    .first:hover
+    {
+        background-color: rgb(165, 161, 161);
+        box-shadow: -2px -3px 13px 1px rgb(37, 37, 37);
+        transition: background-color 1.5s, color 1.5s;
+    }
+    
+    @keyframes xoayvong {
+        from{
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+        }
+        to{
+            -webkit-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+        }
+    }
+    
+    .second
+    {
+        height: 225px;
+        width: 225px;
+        border-radius: 150px;
+        margin-left: 20%;
+        margin-top: 15px;
+        border-style: unset;
+        border-inline-color: black;
+        cursor: pointer;
+        
+        
+    }
+    .second:hover
+    {
+        background-color: rgb(241, 241, 241);
+        box-shadow: -2px -3px 13px 1px rgb(37, 37, 37);
+        transition: background-color 1.5s, color 1.5s;
+        animation: xoayvong 15s linear 0s infinite;
+        -webkit-animation: xoayvong 15s linear 0s infinite;
+        -moz-animation: xoayvong 15s linear 0s infinite;
+        -o-animation: xoayvong 15s linear 0s infinite;
+    }
+    .third
+    {
+        height: 50px;
+        width: 50px;
+        border: 10px;
+        border-radius: 100px;
+        cursor: pointer;
+        background-color: rgb(67, 64, 64);
+        margin-left: 20%;
+        margin-bottom: 80px;
+        margin-bottom: 30%;
+    }
+    .third:hover
+    {
+        background-color: rgb(255, 255, 255);
+        box-shadow: -2px -3px 13px 1px rgb(37, 37, 37);
+        transition: background-color 1.5s, color 1.5s;
+    }
+
+    .name
+    {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 40px;
+        position: relative;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .name span
+    {
+        display: inline-block;
+        animation: flip 3s infinite;
+        animation-delay: calc(.3s* var(--i));
+    }
+    @keyframes flip {
+        0%,80%{
+            transform: rotateY(360deg);
+        }
+    }
+    .tick_blue
+    {
+        height: 30px;
+        width: 30px;
+        border: 5px;
+        border-radius: 100px;
+        
+    }
+    .tick_blue:hover
+    {
+        box-shadow: -2px -3px 13px 1px rgb(37, 37, 37);
+        transition: background-color 2s, color 2s;
+    }
+
+    .list_icon1
+    {
+        margin-top: 20px;
+        height: 60px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }    
+    .img_fb
+    {
+        margin-left: 20px;
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+        border-radius: 100%;
+        box-shadow: -2px -3px 3px 3px rgb(73, 69, 69);
+    }
+    .img_fb:hover
+    {
+        border-radius: 100px;
+        box-shadow: -2px -3px 13px 1px rgb(37, 37, 37);
+        transition: background-color 2s, color 2s;
+    }
+    .img_ins
+    {
+        box-shadow: -2px -3px 3px 3px rgb(73, 69, 69);
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        align-items: center;
+        border-radius: 100px;
+        background-color: rgb(255, 255, 255);
+        cursor: pointer;
+        border: none;
+        border: none;
+        
+    }
+    .img_ins:hover
+    {
+        border-radius: 100px;
+        box-shadow: -2px -3px 13px 1px rgb(37, 37, 37);
+        transition: background-color 2s, color 2s;
+    }
+
+    .img_tiktok
+    {
+        box-shadow: -2px -3px 3px 3px rgb(73, 69, 69);
+        height: 50px;
+        width: 50px;
+        border-radius: 100px;
+        border: none;
+    }
+    .img_tiktok:hover
+    {
+        border-radius: 100px;
+        box-shadow: -2px -3px 13px 1px rgb(37, 37, 37);
+        transition: background-color 2s, color 2s;
+    }
+
+    .img_github
+    {
+        box-shadow: -2px -3px 3px 3px rgb(73, 69, 69);
+        margin-right: 20px;
+        height: 50px;
+        width: 50px;
+        border-radius: 100px;
+        border: none;
+        
+    }
+    .img_github:hover
+    {
+        border-radius: 100px;
+        box-shadow: -2px -3px 13px 1px rgb(37, 37, 37);
+        transition: background-color 2s, color 2s;
+    }
+    .Two_Options
+    {
+        height: 90px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .Button_Inbox
+    {
+        height: 70px;
+        width: 170px;
+        margin-top: 10px;
+        border-radius: 10px;
+        margin-right: 150px;
+        background-color: #3b3c3d;
+        border: 0 solid;
+        box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        cursor: pointer;
+        box-shadow: -2px -3px 13px 1px rgb(37, 37, 37);
+        margin-bottom: 10px;
+        outline: 1px solid;
+        outline-color: rgba(255, 255, 255, .5);
+        outline-offset: 0px;
+        text-shadow: none;
+        transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    .Button_Inbox:hover
+    {
+        border: 1px solid;
+        box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+        outline-color: rgba(255, 255, 255, 0);
+        outline-offset: 15px;
+        text-shadow: 1px 1px 2px #427388; 
+    }
+
+    .Button_Follow
+    {
+        height: 70px;
+        width: 170px;
+        border-radius: 10px;
+        background-color: #3b3c3d;
+        border: none;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        cursor: pointer;
+        box-shadow: -2px -3px 13px 1px rgb(37, 37, 37);
+        border: 0 solid;
+        box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+        outline: 1px solid;
+        outline-color: rgba(255, 255, 255, .5);
+        outline-offset: 0px;
+        text-shadow: none;
+        transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    .Button_Follow:hover
+    {
+        border: 1px solid;
+        box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+        outline-color: rgba(255, 255, 255, 0);
+        outline-offset: 15px;
+        text-shadow: 1px 1px 2px #427388; 
+    }
+    .Three_donate
+    {
+        height: 90px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .Momo, .ViettinBank , .Mbbank
+    {
+        height: 70px;
+        width: 170px;
+        border-radius: 10px;
+        background-color: #3b3c3d;
+        border: none;
+    }
+    .Momo
+    {
+        display: flex;
+        align-content: space-between;
+    }
+    .imgmomo
+    {
+        margin: 10px ;
+        height: 50px;
+        width: 50px;
+        
+    }
+    .Momo p
+    {
+        font-weight: 500;
+        font-style: normal;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+    }
+    .Mbbank
+    {
+        height: 70px;
+        width: 170px;
+        display: flex;
+        align-content: space-between;
+    }
+    .imgmbbank
+    {
+        margin-top: 10px;
+        height: 40px;
+        width: 40px;
+        display: flex;
+        border: none;  
+    }
+    .text_mbbank
+    {
+        margin-top: 10px;
+        height: 100px;
+        width: 100%;
+        font-weight: 500;
+        font-style: normal;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        line-height: 20px;
+    }
+    .ViettinBank
+    {
+        display: flex;
+        align-content: space-between; 
+    }
+    .imgViettinBank
+    {
+        margin-top: 10px;
+        height: 40px;
+        width: 50px;
+        display: flex;
+        border: none;  
+    }
+    .text_Viettinbank
+    {
+        display: flex;
+        margin-top: 10px;
+        height: 100px;
+        width: 100%;
+        font-weight: 500;
+        font-style: normal;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        line-height: 20px;
+        margin-right: 10px;
+    }
+    
